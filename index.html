@@ -95,6 +95,27 @@
   a.dl:focus-visible { outline: 3px solid var(--marigold); outline-offset: 2px; }
   .hint { font-size: 0.88rem; color: var(--soft); margin: 0 0 2.5rem; }
   .hint strong { color: var(--ink); font-weight: 600; }
+  .section-h {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 1.45rem;
+    margin: 0 0 0.4rem;
+    padding-top: 1.2rem;
+    border-top: 3px solid var(--marigold);
+  }
+  .docs { list-style: none; margin: 0 0 2.5rem; padding: 0; }
+  .docs li {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .docs a { color: var(--moss); font-weight: 600; text-underline-offset: 3px; }
+  .docs a:focus-visible { outline: 3px solid var(--marigold); outline-offset: 2px; }
+  footer a.src { color: var(--soft); }
   footer {
     border-top: 3px solid var(--marigold);
     padding-top: 1rem;
@@ -138,7 +159,20 @@
   top-right of your browser window — the files are probably already there.
   Still stuck? Raise a hand; that's what today is for.</p>
 
-  <footer>Searcy Chamber of Commerce &middot; Thursday, August 6, 2026 &middot; 11:00 AM</footer>
+  <h2 class="section-h">Today's handouts</h2>
+  <p class="lede">Digital copies of the paper on your table — keep them, share
+  them with whoever runs your office.</p>
+  <ul class="docs">
+    <li><a href="exercises-packet.pdf" download>Exercise packet (E1–E8)</a>
+        <span class="meta">PDF &middot; 10 pages</span></li>
+    <li><a href="cheat-sheet.pdf" download>One-page cheat sheet</a>
+        <span class="meta">PDF &middot; 1 page</span></li>
+    <li><a href="homework.pdf" download>Homework — before August 20</a>
+        <span class="meta">PDF &middot; 2 pages</span></li>
+  </ul>
+
+  <footer>Searcy Chamber of Commerce &middot; Thursday, August 6, 2026 &middot; 11:00 AM
+  &middot; <a class="src" href="https://github.com/HogRed/petal-stem-files">materials source</a></footer>
 </div>
 </body>
 </html>
