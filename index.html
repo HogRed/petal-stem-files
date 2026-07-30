@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Petal &amp; Stem sample files</title>
+<style>
+  :root {
+    --paper: #FAF7F2;
+    --card: #FFFFFF;
+    --ink: #1F2430;
+    --soft: #565D6D;
+    --moss: #0F6B4F;
+    --moss-deep: #0B523D;
+    --marigold: #E8A33D;
+    --line: #E4DDD1;
+    --btn-text: #FAF7F2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #151B18;
+      --card: #1D2420;
+      --ink: #EDE8DE;
+      --soft: #9AA39C;
+      --moss: #4CAF8A;
+      --moss-deep: #5FBF9A;
+      --marigold: #E8A33D;
+      --line: #2C352F;
+      --btn-text: #10160F;
+    }
+  }
+  html { background: var(--paper); }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.55;
+  }
+  .wrap {
+    max-width: 34rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem 3rem;
+  }
+  .eyebrow {
+    font-size: 0.78rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--moss);
+    font-weight: 600;
+    margin: 0 0 0.6rem;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.9rem, 6vw, 2.5rem);
+    font-weight: 400;
+    line-height: 1.15;
+    margin: 0 0 0.75rem;
+    text-wrap: balance;
+  }
+  .lede { color: var(--soft); margin: 0 0 2.25rem; max-width: 30rem; }
+  .cards { display: grid; gap: 1.1rem; margin: 0 0 2rem; }
+  .file {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.4rem 1.5rem 1.5rem;
+  }
+  .file h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: 0 0 0.35rem;
+    overflow-wrap: anywhere;
+  }
+  .file p { margin: 0 0 1.1rem; color: var(--soft); font-size: 0.95rem; }
+  .meta {
+    font-size: 0.8rem;
+    color: var(--soft);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.04em;
+  }
+  .row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+  a.dl {
+    display: inline-block;
+    border-radius: 8px;
+    background: var(--moss);
+    color: var(--btn-text);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+  }
+  a.dl:hover { background: var(--moss-deep); }
+  a.dl:focus-visible { outline: 3px solid var(--marigold); outline-offset: 2px; }
+  .hint { font-size: 0.88rem; color: var(--soft); margin: 0 0 2.5rem; }
+  .hint strong { color: var(--ink); font-weight: 600; }
+  footer {
+    border-top: 3px solid var(--marigold);
+    padding-top: 1rem;
+    font-size: 0.85rem;
+    color: var(--soft);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    a.dl { transition: background 120ms ease; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">AI for Your Business &middot; Session 1</p>
+  <h1>Petal &amp; Stem sample files</h1>
+  <p class="lede">Two practice files for today's hands-on session. Download both now —
+  you'll upload them to Claude when your instructor says go.</p>
+
+  <div class="cards">
+    <div class="file">
+      <h2>vendor-agreement.pdf</h2>
+      <p>A three-page supplier contract for the flower shop. You'll have Claude
+      read it and tell you what's really in it.</p>
+      <div class="row">
+        <a class="dl" href="vendor-agreement.pdf" download>Download the contract</a>
+        <span class="meta">PDF &middot; 127 KB</span>
+      </div>
+    </div>
+    <div class="file">
+      <h2>petal-and-stem-sales.csv</h2>
+      <p>Six months of the shop's sales, one order per line. You'll have Claude
+      find the story in the numbers — and draw a chart.</p>
+      <div class="row">
+        <a class="dl" href="petal-and-stem-sales.csv" download>Download the sales file</a>
+        <span class="meta">CSV &middot; 9 KB</span>
+      </div>
+    </div>
+  </div>
+
+  <p class="hint"><strong>Nothing happened?</strong> Look for the downloads arrow near the
+  top-right of your browser window — the files are probably already there.
+  Still stuck? Raise a hand; that's what today is for.</p>
+
+  <footer>Searcy Chamber of Commerce &middot; Thursday, August 6, 2026 &middot; 11:00 AM</footer>
+</div>
+</body>
+</html>

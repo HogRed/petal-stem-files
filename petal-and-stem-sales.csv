@@ -1,0 +1,133 @@
+date,item,category,qty,unit_price,total,payment
+2026-01-05,Get Well Bouquet,arrangement,1,47.50,47.50,debit card
+2026-01-06,Sympathy Arrangement,arrangement,1,70.50,70.50,cash
+2026-01-08,Everyday Vase Arrangement,arrangement,1,54.50,54.50,debit card
+2026-01-08,Seasonal Mixed Bouquet,arrangement,1,55.50,55.50,cash
+2026-01-08,Premium Rose Arrangement,arrangement,1,83.50,83.50,debit card
+2026-01-12,Standard Delivery,delivery,1,10.50,10.50,cash
+2026-01-13,Greeting Card,gift,1,10.50,10.50,debit card
+2026-01-13,Sympathy Arrangement,arrangement,1,90.50,90.50,credit card
+2026-01-15,Standard Delivery,delivery,1,10.00,10.00,credit card
+2026-01-20,Everyday Vase Arrangement,arrangement,1,49.50,49.50,credit card
+2026-01-21,Standard Delivery,delivery,1,10.00,10.00,credit card
+2026-01-23,Get Well Bouquet,arrangement,1,45.00,45.00,cash
+2026-01-26,Congratulations Bouquet,arrangement,1,68.50,68.50,check
+2026-01-28,Standard Delivery,delivery,1,10.50,10.50,check
+2026-01-28,Congratulations Bouquet,arrangement,1,57.50,57.50,credit card
+2026-02-02,Congratulations Bouquet,arrangement,1,70.00,70.00,debit card
+2026-02-02,Anniversary Arrangement,arrangement,1,79.50,79.50,credit card
+2026-02-06,Same-Day Delivery Fee,delivery,1,15.00,15.00,debit card
+2026-02-06,New Baby Bouquet,arrangement,2,52.50,105.00,debit card
+2026-02-09,Valentine's Day Rose Bouquet,arrangement,1,91.50,91.50,credit card
+2026-02-09,Mini Bud Vase,gift,1,17.50,17.50,cash
+2026-02-09,Local Delivery Fee,delivery,1,11.00,11.00,debit card
+2026-02-10,Valentine's Day Rose Bouquet,arrangement,2,95.00,190.00,cash
+2026-02-10,Red Rose Dozen - Valentine Special,arrangement,1,73.50,73.50,credit card
+2026-02-10,Red Rose Dozen - Valentine Special,arrangement,1,90.00,90.00,credit card
+2026-02-11,Local Delivery Fee,delivery,1,10.50,10.50,credit card
+2026-02-16,Spring Garden Arrangement,arrangement,2,64.50,129.00,credit card
+2026-02-16,Chocolate Box,gift,3,24.50,73.50,credit card
+2026-02-17,Get Well Bouquet,arrangement,1,54.50,54.50,cash
+2026-02-19,Seasonal Mixed Bouquet,arrangement,2,59.50,119.00,cash
+2026-02-21,Balloon Bundle,gift,3,18.50,55.50,credit card
+2026-02-23,Premium Rose Arrangement,arrangement,2,92.00,184.00,check
+2026-02-24,Balloon Bundle,gift,2,12.50,25.00,cash
+2026-02-24,Get Well Bouquet,arrangement,1,47.50,47.50,cash
+2026-02-26,Sympathy Arrangement,arrangement,1,91.00,91.00,debit card
+2026-02-28,Mini Bud Vase,gift,3,11.00,33.00,debit card
+2026-03-03,Local Delivery Fee,delivery,1,10.50,10.50,credit card
+2026-03-05,Local Delivery Fee,delivery,1,11.50,11.50,debit card
+2026-03-10,New Baby Bouquet,arrangement,1,53.00,53.00,credit card
+2026-03-18,Same-Day Delivery Fee,delivery,2,15.00,30.00,cash
+2026-03-19,Same-Day Delivery Fee,delivery,1,13.50,13.50,credit card
+2026-03-21,Balloon Bundle,gift,1,20.00,20.00,credit card
+2026-03-24,Succulent Gift Box,gift,3,22.00,66.00,debit card
+2026-04-02,Everyday Vase Arrangement,arrangement,1,48.50,48.50,credit card
+2026-04-04,Fall Harvest Arrangement,arrangement,1,50.50,50.50,credit card
+2026-04-06,Same-Day Delivery Fee,delivery,2,13.50,27.00,credit card
+2026-04-09,Seasonal Mixed Bouquet,arrangement,1,54.50,54.50,credit card
+2026-04-09,Balloon Bundle,gift,1,17.50,17.50,credit card
+2026-04-14,Gift Basket Add-on,gift,1,40.00,40.00,debit card
+2026-04-14,Greeting Card,gift,2,10.50,21.00,cash
+2026-04-15,Chocolate Box,gift,1,22.00,22.00,cash
+2026-04-16,Small Potted Plant,gift,1,21.50,21.50,gift card
+2026-04-17,Sympathy Arrangement,arrangement,1,90.50,90.50,debit card
+2026-04-20,Same-Day Delivery Fee,delivery,1,14.00,14.00,debit card
+2026-04-20,Anniversary Arrangement,arrangement,1,74.00,74.00,credit card
+2026-04-22,Spring Garden Arrangement,arrangement,1,59.00,59.00,check
+2026-04-23,Standard Delivery,delivery,1,10.00,10.00,credit card
+2026-04-25,Greeting Card,gift,3,11.50,34.50,debit card
+2026-04-27,Gift Basket Add-on,gift,2,36.00,72.00,check
+2026-04-29,Classic Dozen Roses,arrangement,1,65.00,65.00,credit card
+2026-04-30,Standard Delivery,delivery,1,10.50,10.50,credit card
+2026-05-01,Get Well Bouquet,arrangement,1,45.00,45.00,debit card
+2026-05-02,Rush Delivery,delivery,1,14.00,14.00,credit card
+2026-05-04,Mother's Day Premium Arrangement,arrangement,1,73.00,73.00,credit card
+2026-05-06,Mother's Day Premium Arrangement,arrangement,1,75.50,75.50,gift card
+2026-05-06,Balloon Bundle,gift,1,14.00,14.00,cash
+2026-05-06,Local Delivery Fee,delivery,1,12.00,12.00,credit card
+2026-05-07,Local Delivery Fee,delivery,1,11.50,11.50,credit card
+2026-05-07,Rush Delivery,delivery,1,15.00,15.00,credit card
+2026-05-08,Anniversary Party Package,wedding/event,1,749.00,749.00,credit card
+2026-05-09,Engagement Party Florals,wedding/event,1,397.50,397.50,credit card
+2026-05-09,Small Potted Plant,gift,1,23.00,23.00,check
+2026-05-09,Mother's Day Garden Basket,arrangement,2,76.00,152.00,cash
+2026-05-09,Mother's Day Special Bouquet,arrangement,2,57.50,115.00,cash
+2026-05-09,Mother's Day Premium Arrangement,arrangement,2,86.50,173.00,cash
+2026-05-13,Seasonal Mixed Bouquet,arrangement,1,52.50,52.50,debit card
+2026-05-13,Rush Delivery,delivery,1,13.50,13.50,credit card
+2026-05-13,Small Potted Plant,gift,1,21.50,21.50,cash
+2026-05-14,Bridal Bouquet Package,wedding/event,1,489.00,489.00,credit card
+2026-05-14,Gift Basket Add-on,gift,1,35.50,35.50,credit card
+2026-05-15,Same-Day Delivery Fee,delivery,1,13.00,13.00,debit card
+2026-05-19,Anniversary Arrangement,arrangement,1,63.00,63.00,credit card
+2026-05-19,Corporate Event Florals,wedding/event,1,667.50,667.50,credit card
+2026-05-20,Everyday Vase Arrangement,arrangement,2,46.00,92.00,credit card
+2026-05-21,Mini Bud Vase,gift,1,17.00,17.00,credit card
+2026-05-21,Anniversary Arrangement,arrangement,1,68.00,68.00,debit card
+2026-05-22,Get Well Bouquet,arrangement,1,55.00,55.00,credit card
+2026-05-25,Spring Garden Arrangement,arrangement,1,63.00,63.00,debit card
+2026-05-25,Full Wedding Florals Package,wedding/event,1,1731.00,1731.00,debit card
+2026-05-25,Fall Harvest Arrangement,arrangement,1,52.00,52.00,credit card
+2026-05-25,Local Delivery Fee,delivery,1,11.00,11.00,debit card
+2026-05-30,Local Delivery Fee,delivery,1,12.00,12.00,cash
+2026-06-01,Rush Delivery,delivery,1,15.00,15.00,credit card
+2026-06-01,Engagement Party Florals,wedding/event,1,391.50,391.50,credit card
+2026-06-02,Reception Centerpiece Package,wedding/event,1,896.50,896.50,credit card
+2026-06-03,Succulent Gift Box,gift,3,21.00,63.00,debit card
+2026-06-04,Greeting Card,gift,1,8.00,8.00,credit card
+2026-06-06,Succulent Gift Box,gift,3,27.00,81.00,credit card
+2026-06-08,Everyday Vase Arrangement,arrangement,1,45.00,45.00,credit card
+2026-06-09,Balloon Bundle,gift,3,12.50,37.50,credit card
+2026-06-09,Anniversary Arrangement,arrangement,1,84.50,84.50,check
+2026-06-09,Chocolate Box,gift,3,20.00,60.00,credit card
+2026-06-10,Reception Centerpiece Package,wedding/event,1,827.00,827.00,cash
+2026-06-16,Small Potted Plant,gift,2,17.00,34.00,debit card
+2026-06-16,Congratulations Bouquet,arrangement,1,62.50,62.50,check
+2026-06-17,Bridal Bouquet Package,wedding/event,1,493.00,493.00,debit card
+2026-06-17,Full Wedding Florals Package,wedding/event,1,1580.00,1580.00,cash
+2026-06-17,Premium Rose Arrangement,arrangement,1,93.00,93.00,debit card
+2026-06-18,Get Well Bouquet,arrangement,2,52.50,105.00,debit card
+2026-06-20,Birthday Bouquet,arrangement,1,54.00,54.00,debit card
+2026-06-23,Chocolate Box,gift,1,28.00,28.00,debit card
+2026-06-25,Anniversary Arrangement,arrangement,1,62.50,62.50,check
+2026-06-26,Full Wedding Florals Package,wedding/event,1,1222.00,1222.00,credit card
+2026-06-26,Rush Delivery,delivery,2,14.50,29.00,cash
+2026-06-27,Mini Bud Vase,gift,2,10.00,20.00,cash
+2026-06-29,Everyday Vase Arrangement,arrangement,1,52.50,52.50,gift card
+2026-06-30,Anniversary Party Package,wedding/event,1,527.50,527.50,credit card
+2026-07-02,Rush Delivery,delivery,2,13.00,26.00,credit card
+2026-07-03,Seasonal Mixed Bouquet,arrangement,1,55.00,55.00,credit card
+2026-07-06,Rush Delivery,delivery,1,14.50,14.50,credit card
+2026-07-06,Mini Bud Vase,gift,1,13.00,13.00,credit card
+2026-07-11,Classic Dozen Roses,arrangement,1,69.00,69.00,credit card
+2026-07-11,Premium Rose Arrangement,arrangement,1,81.50,81.50,credit card
+2026-07-11,Mini Bud Vase,gift,3,14.50,43.50,credit card
+2026-07-13,Standard Delivery,delivery,1,11.50,11.50,credit card
+2026-07-16,Premium Rose Arrangement,arrangement,1,82.50,82.50,check
+2026-07-16,Small Potted Plant,gift,1,25.00,25.00,credit card
+2026-07-17,Anniversary Arrangement,arrangement,1,72.00,72.00,debit card
+2026-07-17,Premium Rose Arrangement,arrangement,1,90.50,90.50,debit card
+2026-07-20,Congratulations Bouquet,arrangement,1,67.00,67.00,debit card
+2026-07-21,Scented Candle,gift,1,17.50,17.50,credit card
+2026-07-22,New Baby Bouquet,arrangement,1,49.00,49.00,credit card
