@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Session 1 — everything for today</title>
+<title>Session 2 — everything for today</title>
 <style>
   :root {
     --paper: #FAF7F2;
@@ -15,6 +15,7 @@
     --marigold: #E8A33D;
     --line: #E4DDD1;
     --btn-text: #FAF7F2;
+    --warm: #FBF3E4;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -27,6 +28,7 @@
       --marigold: #E8A33D;
       --line: #2C352F;
       --btn-text: #10160F;
+      --warm: #2A2519;
     }
   }
   html { background: var(--paper); }
@@ -103,6 +105,19 @@
   }
   a.dl:hover { background: var(--moss-deep); }
   a.dl:focus-visible { outline: 3px solid var(--marigold); outline-offset: 2px; }
+  /* The unzip step is the single biggest stall of the session, so it gets
+     its own block on the card rather than a line of body copy. */
+  .unzip {
+    background: var(--warm);
+    border-left: 4px solid var(--marigold);
+    border-radius: 0 6px 6px 0;
+    padding: 0.75rem 1rem;
+    margin: 0 0 1.1rem;
+    font-size: 0.92rem;
+    color: var(--ink);
+  }
+  .unzip b { font-weight: 700; }
+  .unzip span { display: block; color: var(--soft); font-size: 0.88rem; margin-top: 0.2rem; }
   .hint { font-size: 0.88rem; color: var(--soft); margin: 0 0 2.5rem; }
   .hint strong { color: var(--ink); font-weight: 600; }
   .section-h {
@@ -125,6 +140,7 @@
   }
   .docs a { color: var(--moss); font-weight: 600; text-underline-offset: 3px; }
   .docs a:focus-visible { outline: 3px solid var(--marigold); outline-offset: 2px; }
+  .past { opacity: 0.85; }
   footer a.src { color: var(--soft); }
   footer {
     border-top: 3px solid var(--marigold);
@@ -139,10 +155,10 @@
 </head>
 <body>
 <div class="wrap">
-  <p class="eyebrow">AI for Your Business &middot; Session 1</p>
+  <p class="eyebrow">AI for Your Business &middot; Session 2</p>
   <h1>Everything for today</h1>
-  <p class="lede">Start with the packet — you'll work from it all morning. The two
-  practice files are further down; you'll download those when your instructor says go.</p>
+  <p class="lede">Start with the packet — you'll work from it all morning. Download
+  the folder when your instructor says go.</p>
 
   <div class="cards">
     <div class="file start">
@@ -151,53 +167,92 @@
       <p>Every step of the session, E1 through E8. Open it now and leave it on
       screen next to Claude.</p>
       <div class="row">
-        <a class="dl" href="exercises-packet.pdf" target="_blank" rel="noopener">Open the packet</a>
-        <span class="meta">PDF &middot; 10 pages &middot; opens in a new tab</span>
+        <a class="dl" href="session-2-packet.pdf" target="_blank" rel="noopener">Open the packet</a>
+        <span class="meta">PDF &middot; 15 pages &middot; opens in a new tab</span>
       </div>
     </div>
   </div>
 
-  <h2 class="section-h">The two practice files</h2>
-  <p class="lede">Download both when your instructor says go. You'll upload them
-  to Claude yourself.</p>
+  <h2 class="section-h">The messy folder</h2>
+  <p class="lede">Eight months of Dana's paperwork, and not one filename tells you
+  what's inside. This is what you'll point Claude at in Blocks 1 and 2.</p>
 
   <div class="cards">
     <div class="file">
-      <h2>vendor-agreement.pdf</h2>
-      <p>A three-page supplier contract for the flower shop. You'll have Claude
-      read it and tell you what's really in it.</p>
+      <h2>petal-and-stem-mess.zip</h2>
+      <p>Nineteen files — scanned invoices, two photos of receipts, notes typed
+      at eleven at night, and a flyer saved three times.</p>
+      <div class="unzip">
+        <b>Unzip it before you use it.</b>
+        <span>Windows: right-click the file &rarr; <b>Extract All</b> &rarr; Extract.
+        Mac: double-click it. Claude can't see inside a zip, so this step is not
+        optional.</span>
+      </div>
       <div class="row">
-        <a class="dl" href="vendor-agreement.pdf" download>Download the contract</a>
-        <span class="meta">PDF &middot; 127 KB</span>
+        <a class="dl" href="petal-and-stem-mess.zip" download>Download the folder</a>
+        <span class="meta">ZIP &middot; 453 KB &middot; 19 files</span>
       </div>
     </div>
+  </div>
+
+  <h2 class="section-h">If your email won't connect</h2>
+  <p class="lede">Some work accounts can't connect to Claude, and Microsoft accounts
+  need an approval we can't do in the room. If that's you, use this instead — every
+  exercise in Block 3 works on it exactly the same way.</p>
+
+  <div class="cards">
     <div class="file">
-      <h2>petal-and-stem-sales.csv</h2>
-      <p>Six months of the shop's sales, one order per line. You'll have Claude
-      find the story in the numbers — and draw a chart.</p>
+      <h2>inbox-samples.zip</h2>
+      <p>Twelve emails out of Dana's inbox. Unzip it the same way, then connect
+      that folder in Cowork instead of your mail.</p>
       <div class="row">
-        <a class="dl" href="petal-and-stem-sales.csv" download>Download the sales file</a>
-        <span class="meta">CSV &middot; 9 KB</span>
+        <a class="dl" href="inbox-samples.zip" download>Download the practice inbox</a>
+        <span class="meta">ZIP &middot; 7 KB &middot; 12 emails</span>
       </div>
     </div>
   </div>
 
   <p class="hint"><strong>Nothing happened?</strong> Look for the downloads arrow near the
-  top-right of your browser window — the files are probably already there.
+  top-right of your browser window — the file is probably already there.
   Still stuck? Raise a hand; that's what today is for.</p>
 
   <h2 class="section-h">Take home</h2>
   <p class="lede">The cheat sheet for your desk, and the three small things to do
-  before August 20. The packet at the top is yours to keep too — share any of it
-  with whoever runs your office.</p>
+  before September 10. The packet at the top is yours to keep too.</p>
   <ul class="docs">
-    <li><a href="cheat-sheet.pdf" download>One-page cheat sheet</a>
+    <li><a href="session-2-cheat-sheet.pdf" download>One-page cheat sheet</a>
         <span class="meta">PDF &middot; 1 page</span></li>
-    <li><a href="homework.pdf" download>Homework — before August 20</a>
+    <li><a href="session-2-homework.pdf" download>Homework — before September 10</a>
+        <span class="meta">PDF &middot; 4 pages</span></li>
+  </ul>
+
+  <h2 class="section-h">Only if you want it</h2>
+  <p class="lede">You don't need these. The easiest way to build a Skill is to just
+  ask Claude, which is what we did in E7. These are here in case you'd rather see a
+  finished one, or write your own by hand.</p>
+  <ul class="docs">
+    <li><a href="petal-stem-quote.zip" download>Dana's finished skill</a>
+        <span class="meta">ZIP &middot; ready to upload</span></li>
+    <li><a href="my-skill.zip" download>A blank skill template</a>
+        <span class="meta">ZIP &middot; ready to fill in</span></li>
+  </ul>
+
+  <h2 class="section-h past">From Session 1 &middot; August 6</h2>
+  <p class="lede past">Still here if you want them again, or missed that morning.</p>
+  <ul class="docs past">
+    <li><a href="exercises-packet.pdf" target="_blank" rel="noopener">Session 1 exercise packet</a>
+        <span class="meta">PDF &middot; 10 pages</span></li>
+    <li><a href="vendor-agreement.pdf" download>vendor-agreement.pdf</a>
+        <span class="meta">the supplier contract</span></li>
+    <li><a href="petal-and-stem-sales.csv" download>petal-and-stem-sales.csv</a>
+        <span class="meta">six months of sales</span></li>
+    <li><a href="cheat-sheet.pdf" download>Session 1 cheat sheet</a>
+        <span class="meta">PDF &middot; 1 page</span></li>
+    <li><a href="homework.pdf" download>Session 1 homework</a>
         <span class="meta">PDF &middot; 3 pages</span></li>
   </ul>
 
-  <footer>Searcy Chamber of Commerce &middot; Thursday, August 6, 2026 &middot; 11:00 AM
+  <footer>Searcy Chamber of Commerce &middot; Thursday, August 20, 2026 &middot; 11:00 AM
   &middot; <a class="src" href="https://github.com/HogRed/petal-stem-files">materials source</a></footer>
 </div>
 </body>
